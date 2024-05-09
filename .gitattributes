@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+packages/cef.redist.x64.86.0.24/CEF/libcef.dll filter=lfs diff=lfs merge=lfs -text
+packages/cef.redist.x86.86.0.24/CEF/libcef.dll filter=lfs diff=lfs merge=lfs -text
